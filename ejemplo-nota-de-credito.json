@@ -1,1 +1,151 @@
 
+{
+  "schemaLocation": "https://ekuatia.set.gov.py/sifen/xsd/siRecepDE_v150.xsd",
+  "dVerFor": "150",
+  "cantidadItems": 2,
+  "de": {
+    "id": "DE-00100200125",
+    "dDVId": "7",
+    "dFecFirma": "2025-11-04T13:45:00Z",
+    "dSisFact": 1,
+    "gOpeDE": {
+      "iTipEmi": 1,
+      "dDesTipEmi": "Normal",
+      "dCodSeg": "ABC123XYZ"
+    },
+    "gTimb": {
+      "iTiDE": 4,
+      "dDesTiDE": "Nota de Crédito Electrónica",
+      "dNumTim": "81234567",
+      "dEst": "001",
+      "dPunExp": "002",
+      "dNumDoc": "000125",
+      "dFeIniT": "2025-01-01T00:00:00Z"
+    },
+    "gDatGralOpe": {
+      "dFeEmiDE": "2025-11-04T13:45:00Z",
+      "gOpeCom": {
+        "iTipTra": 1,
+        "dDesTipTra": "Venta de mercadería",
+        "iTImp": 1,
+        "dDesTImp": "IVA",
+        "cMoneOpe": "PYG",
+        "dDesMoneOpe": "Guaraníes"
+      },
+      "gEmis": {
+        "dRucEm": "80012345",
+        "dDVEmi": "6",
+        "iTipCont": 1,
+        "dNomEmi": "EJEMPLO S.A.",
+        "dNomFanEmi": "Comercial Ejemplo",
+        "dDirEmi": "Av. Siempre Viva 742",
+        "dNumCas": "0",
+        "cDepEmi": 11,
+        "dDesDepEmi": "Central",
+        "cDisEmi": 1101,
+        "dDesDisEmi": "Asunción",
+        "cCiuEmi": 110101,
+        "dDesCiuEmi": "Asunción",
+        "dTelEmi": "021123456",
+        "dEmailE": "contacto@ejemplo.com",
+        "dDenSuc": "Casa Matriz",
+        "gActEco": [
+          {
+            "cActEco": "123456",
+            "dDesActEco": "Venta al por menor de equipos informáticos"
+          }
+        ],
+        "gRespDE": {
+          "iTipIDRespDE": 1,
+          "dDTipIDRespDE": "Cédula de Identidad",
+          "dNumIDRespDE": "1234567",
+          "dNomRespDE": "Funcionario Autorizado",
+          "dCarRespDE": "Encargado de Facturación"
+        }
+      },
+      "gDatRec": {
+        "iNatRec": 1,
+        "iTiOpe": 1,
+        "cPaisRec": "PY",
+        "dDesPaisRe": "Paraguay",
+        "iTiContRec": 1,
+        "dRucRec": "1234567",
+        "dDVRec": "8",
+        "dNomRec": "CLIENTE DE PRUEBA SRL",
+        "dDirRec": "Calle Falsa 123",
+        "dNumCasRec": "0",
+        "cDepRec": 11,
+        "dDesDepRec": "Central",
+        "cDisRec": 1102,
+        "dDesDisRec": "Luque",
+        "cCiuRec": 110201,
+        "dDesCiuRec": "Luque",
+        "dCodCliente": "C001"
+      }
+    },
+    "gDtipDE": {
+      "gCamNCDE": {
+        "iMotEmi": 2,
+        "dDesMotEmi": "Devolución de producto"
+      },
+      "gCamItem": [
+        {
+          "dCodInt": "A001",
+          "dDesProSer": "Mouse inalámbrico",
+          "cUniMed": "UNI",
+          "dDesUniMed": "Unidad",
+          "dCantProSer": 2,
+          "gValorItem": {
+            "dPUniProSer": 75000,
+            "dTotBruOpeItem": 150000,
+            "gValorRestaItem": {
+              "dDescItem": 0,
+              "dPorcDesIt": 0,
+              "dDescGloItem": 0,
+              "dAntPreUniIt": 0,
+              "dAntGloPreUniIt": 0,
+              "dTotOpeItem": 150000
+            }
+          },
+          "gCamIVA": {
+            "iAfecIVA": "1",
+            "dDesAfecIVA": "Gravado 10%",
+            "dPropIVA": 100,
+            "dTasaIVA": 10,
+            "dBasGravIVA": 136364,
+            "dLiqIVAItem": 13636,
+            "dBasExe": 0
+          }
+        },
+        {
+          "dCodInt": "B005",
+          "dDesProSer": "Teclado mecánico",
+          "cUniMed": "UNI",
+          "dDesUniMed": "Unidad",
+          "dCantProSer": 1,
+          "gValorItem": {
+            "dPUniProSer": 350000,
+            "dTotBruOpeItem": 350000,
+            "gValorRestaItem": {
+              "dDescItem": 0,
+              "dPorcDesIt": 0,
+              "dDescGloItem": 0,
+              "dAntPreUniIt": 0,
+              "dAntGloPreUniIt": 0,
+              "dTotOpeItem": 350000
+            }
+          },
+          "gCamIVA": {
+            "iAfecIVA": "1",
+            "dDesAfecIVA": "Gravado 10%",
+            "dPropIVA": 100,
+            "dTasaIVA": 10,
+            "dBasGravIVA": 318182,
+            "dLiqIVAItem": 31818,
+            "dBasExe": 0
+          }
+        }
+      ]
+    }
+  }
+}
