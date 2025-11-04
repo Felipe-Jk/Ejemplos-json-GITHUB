@@ -1,1 +1,171 @@
+{
+  "schemaLocation": "https://ekuatia.set.gov.py/sifen/xsd",
+  "dVerFor": "150",
+  "cantidadItems": 1,
+  "de": {
+    "id": "NC-001",
+    "dDVId": "1",
+    "dFecFirma": "2025-11-04T16:50:35.995Z",
+    "dSisFact": 1,
+    "gOpeDE": {
+      "iTipEmi": 1,
+      "dDesTipEmi": "Normal",
+      "dCodSeg": "ABC1234567"
+    },
+    "gTimb": {
+      "iTiDE": 5,
+      "dDesTiDE": "Nota de Crédito Electrónica",
+      "dNumTim": "12345678",
+      "dEst": "001",
+      "dPunExp": "002",
+      "dNumDoc": "0000001",
+      "dFeIniT": "2025-01-01T00:00:00.000Z"
+    },
+    "gDatGralOpe": {
+      "dFeEmiDE": "2025-11-04T16:50:35.995Z",
+      "gOpeCom": {
+        "iTipTra": 1,
+        "dDesTipTra": "Venta de bienes",
+        "iTImp": 1,
+        "dDesTImp": "IVA",
+        "cMoneOpe": "PYG",
+        "dDesMoneOpe": "Guaraníes",
+        "gOblAfe": [
+          {
+            "cOblAfe": "911",
+            "dDesOblAfe": "IVA - Régimen General"
+          }
+        ]
+      },
+      "gEmis": {
+        "dRucEm": "80012345",
+        "dDVEmi": "2",
+        "iTipCont": 1,
+        "dNomEmi": "EMPRESA DEMO S.A.",
+        "dNomFanEmi": "EMPRESA DEMO",
+        "dDirEmi": "Av. Ejemplo 1234",
+        "dNumCas": "1234",
+        "cDepEmi": 1,
+        "dDesDepEmi": "Asunción",
+        "cDisEmi": 1,
+        "dDesDisEmi": "Asunción",
+        "cCiuEmi": 1,
+        "dDesCiuEmi": "Asunción",
+        "dTelEmi": "(021) 555-000",
+        "dEmailE": "info@empresa-demo.com",
+        "dDenSuc": "Casa Central",
+        "gActEco": [
+          {
+            "cActEco": "463110",
+            "dDesActEco": "Venta al por mayor de productos alimenticios"
+          }
+        ],
+        "gRespDE": {
+          "iTipIDRespDE": 1,
+          "dDTipIDRespDE": "Cédula paraguaya",
+          "dNumIDRespDE": "1234567",
+          "dNomRespDE": "María López",
+          "dCarRespDE": "Encargada de facturación"
+        }
+      },
+      "gDatRec": {
+        "iNatRec": 1,
+        "iTiOpe": 2,
+        "cPaisRec": "PRY",
+        "dDesPaisRe": "Paraguay",
+        "iTiContRec": 1,
+        "dRucRec": "80056789",
+        "dDVRec": "1",
+        "dNomRec": "CLIENTE DEMO S.R.L.",
+        "dDirRec": "Calle Falsa 123",
+        "dNumCasRec": "123",
+        "cDepRec": 7,
+        "dDesDepRec": "Central",
+        "cDisRec": 16,
+        "dDesDisRec": "San Lorenzo",
+        "cCiuRec": 16,
+        "dDesCiuRec": "San Lorenzo",
+        "dCodCliente": "CL-001"
+      }
+    },
+    "gDtipDE": {
+      "gCamNCDE": {
+        "iMotEmi": 1,
+        "dDesMotEmi": "Devolución total de mercadería"
+      },
+      "gCamItem": [
+        {
+          "dCodInt": "A001",
+          "dDesProSer": "Producto devuelto A",
+          "cUniMed": "UNI",
+          "dDesUniMed": "Unidad",
+          "dCantProSer": 10,
+          "gValorItem": {
+            "dPUniProSer": 50000,
+            "dTotBruOpeItem": 500000,
+            "gValorRestaItem": {
+              "dDescItem": 0,
+              "dPorcDesIt": 0,
+              "dDescGloItem": 0,
+              "dAntPreUniIt": 0,
+              "dAntGloPreUniIt": 0,
+              "dTotOpeItem": 500000
+            }
+          },
+          "gCamIVA": {
+            "iAfecIVA": "1",
+            "dDesAfecIVA": "Gravado IVA 10%",
+            "dPropIVA": 100,
+            "dTasaIVA": 10,
+            "dBasGravIVA": 454545.45,
+            "dLiqIVAItem": 45454.55,
+            "dBasExe": 0
+          },
+          "gRasMerc": {
+            "dNumLote": "L001",
+            "dVencMerc": "2026-01-01T00:00:00.000Z"
+          }
+        }
+      ]
+    },
+    "gTotSub": {
+      "dSubExe": 0,
+      "dSubExo": 0,
+      "dSub5": 0,
+      "dSub10": 500000,
+      "dTotOpe": 500000,
+      "dTotDesc": 0,
+      "dTotDescGlotem": 0,
+      "dTotAntItem": 0,
+      "dTotAnt": 0,
+      "dPorcDescTotal": 0,
+      "dDescTotal": 0,
+      "dAnticipo": 0,
+      "dRedon": 0,
+      "dTotGralOpe": 500000,
+      "dIVA5": 0,
+      "dIVA10": 45454.55,
+      "dLiqTotIVA5": 0,
+      "dLiqTotIVA10": 45454.55,
+      "dTotIVA": 45454.55,
+      "dBaseGrav5": 0,
+      "dBaseGrav10": 454545.45,
+      "dTBasGraIVA": 454545.45
+    },
+    "gCamDEAsoc": {
+      "iTipDocAso": 1,
+      "dDesTipDocAso": "Factura Electrónica",
+      "dCdCDERef": "01800123456001002000000120251104165035995"
+    },
+    "gDtipDECond": {
+      "iCondOpe": 2,
+      "dDCondOpe": "Crédito",
+      "gPagCred": {
+        "iCondCred": 1,
+        "dDCondCred": "Plazo de crédito",
+        "dPlazoCre": "30 días"
+      }
+    }
+  }
+}
 
