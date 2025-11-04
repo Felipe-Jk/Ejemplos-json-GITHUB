@@ -1,129 +1,140 @@
 {
-  "schemaLocation": "https://ekuatia.set.gov.py/sifen/xsd",
+  "schemaLocation": "https://ekuatia.set.gov.py/sifen/xsd/siRecepDE_v150.xsd",
   "dVerFor": "150",
   "cantidadItems": 1,
   "de": {
-    "id": "NC-001",
-    "dDVId": "1",
-    "dFecFirma": "2025-11-04T16:50:35.995Z",
+    "id": "DE-0020011018",
+    "dDVId": "3",
+    "dFecFirma": "2025-10-01T08:13:00Z",
     "dSisFact": 1,
     "gOpeDE": {
       "iTipEmi": 1,
       "dDesTipEmi": "Normal",
-      "dCodSeg": "ABC1234567"
+      "dCodSeg": "ABC123XYZ"
     },
     "gTimb": {
-      "iTiDE": 5,
-      "dDesTiDE": "Nota de Crédito Electrónica",
-      "dNumTim": "12345678",
-      "dEst": "001",
-      "dPunExp": "002",
-      "dNumDoc": "0000001",
-      "dFeIniT": "2025-01-01T00:00:00.000Z"
+      "iTiDE": 1,
+      "dDesTiDE": "Factura Electrónica",
+      "dNumTim": "17951039",
+      "dEst": "002",
+      "dPunExp": "001",
+      "dNumDoc": "1018",
+      "dFeIniT": "2025-07-16T00:00:00Z"
     },
     "gDatGralOpe": {
-      "dFeEmiDE": "2025-11-04T16:50:35.995Z",
+      "dFeEmiDE": "2025-10-01T08:13:00Z",
       "gOpeCom": {
         "iTipTra": 1,
-        "dDesTipTra": "Venta de bienes",
-        "iTImp": 1,
-        "dDesTImp": "IVA",
+        "dDesTipTra": "Venta de mercadería",
+        "iTImp": 5,
+        "dDesTImp": "IVA - Renta",
         "cMoneOpe": "PYG",
-        "dDesMoneOpe": "Guaraníes",
-        "gOblAfe": [
-          {
-            "cOblAfe": "911",
-            "dDesOblAfe": "IVA - Régimen General"
-          }
-        ]
+        "dDesMoneOpe": "Guaraníes"
       },
       "gEmis": {
-        "dRucEm": "80012345",
-        "dDVEmi": "2",
+        "dRucEm": "80146013",
+        "dDVEmi": "0",
         "iTipCont": 1,
-        "dNomEmi": "EMPRESA DEMO S.A.",
-        "dNomFanEmi": "EMPRESA DEMO",
-        "dDirEmi": "Av. Ejemplo 1234",
-        "dNumCas": "1234",
-        "cDepEmi": 1,
-        "dDesDepEmi": "Asunción",
-        "cDisEmi": 1,
+        "dNomEmi": "GRUPO RD S.A.",
+        "dNomFanEmi": "GRUPO RD",
+        "dDirEmi": "Av. Principal 123",
+        "dNumCas": "0",
+        "cDepEmi": 11,
+        "dDesDepEmi": "Central",
+        "cDisEmi": 1101,
         "dDesDisEmi": "Asunción",
-        "cCiuEmi": 1,
+        "cCiuEmi": 110101,
         "dDesCiuEmi": "Asunción",
-        "dTelEmi": "(021) 555-000",
-        "dEmailE": "info@empresa-demo.com",
-        "dDenSuc": "Casa Central",
+        "dTelEmi": "021600000",
+        "dEmailE": "contacto@grupord.com",
+        "dDenSuc": "Casa Matriz",
         "gActEco": [
           {
-            "cActEco": "463110",
-            "dDesActEco": "Venta al por mayor de productos alimenticios"
+            "cActEco": "123456",
+            "dDesActEco": "Venta de mercaderías en general"
           }
         ],
         "gRespDE": {
           "iTipIDRespDE": 1,
-          "dDTipIDRespDE": "Cédula paraguaya",
-          "dNumIDRespDE": "1234567",
-          "dNomRespDE": "María López",
-          "dCarRespDE": "Encargada de facturación"
+          "dDTipIDRespDE": "Cédula de Identidad",
+          "dNumIDRespDE": "9999999",
+          "dNomRespDE": "Funcionario Autorizado",
+          "dCarRespDE": "Encargado de Facturación"
         }
       },
       "gDatRec": {
         "iNatRec": 1,
-        "iTiOpe": 2,
-        "cPaisRec": "PRY",
+        "iTiOpe": 1,
+        "cPaisRec": "PY",
         "dDesPaisRe": "Paraguay",
         "iTiContRec": 1,
-        "dRucRec": "80056789",
-        "dDVRec": "1",
-        "dNomRec": "CLIENTE DEMO S.R.L.",
-        "dDirRec": "Calle Falsa 123",
-        "dNumCasRec": "123",
-        "cDepRec": 7,
+        "dRucRec": "80071221",
+        "dDVRec": "8",
+        "dNomRec": "SANATORIO BRITANICO S.A.",
+        "dDirRec": "RODRIGUEZ DE FRANCIA ESQ. PARAPITI",
+        "dNumCasRec": "0",
+        "cDepRec": 11,
         "dDesDepRec": "Central",
-        "cDisRec": 16,
-        "dDesDisRec": "San Lorenzo",
-        "cCiuRec": 16,
-        "dDesCiuRec": "San Lorenzo",
-        "dCodCliente": "CL-001"
+        "cDisRec": 1102,
+        "dDesDisRec": "Luque",
+        "cCiuRec": 110201,
+        "dDesCiuRec": "Luque",
+        "dCodCliente": "80071221-8"
       }
     },
     "gDtipDE": {
-      "gCamNCDE": {
-        "iMotEmi": 1,
-        "dDesMotEmi": "Devolución total de mercadería"
+      "gCamFE": {
+        "iIndPres": 1,
+        "dDesIndPres": "Operación presencial"
+      },
+      "gCamCond": {
+        "iCondOpe": 2,
+        "dDCondOpe": "Crédito",
+        "gPagCred": {
+          "iCondCred": 1,
+          "dDCondCred": "Plazo",
+          "dPlazoCre": "Crédito 90 días"
+        },
+        "gPaConEIni": {
+          "iTiPago": 5,
+          "dDesTiPag": "Pago a crédito",
+          "dMonTiPag": 4100000,
+          "cMoneTiPag": "PYG",
+          "dDMoneTiPag": "Guaraníes",
+          "dTiCamTiPag": 1
+        }
       },
       "gCamItem": [
         {
-          "dCodInt": "A001",
-          "dDesProSer": "Producto devuelto A",
-          "cUniMed": "UNI",
-          "dDesUniMed": "Unidad",
-          "dCantProSer": 10,
+          "dCodInt": "1",
+          "dDesProSer": "Producto de prueba",
+          "cUniMed": "77",
+          "dDesUniMed": "UNI",
+          "dCantProSer": 1,
           "gValorItem": {
-            "dPUniProSer": 50000,
-            "dTotBruOpeItem": 500000,
+            "dPUniProSer": 4100000,
+            "dTotBruOpeItem": 4100000,
             "gValorRestaItem": {
               "dDescItem": 0,
               "dPorcDesIt": 0,
               "dDescGloItem": 0,
               "dAntPreUniIt": 0,
               "dAntGloPreUniIt": 0,
-              "dTotOpeItem": 500000
+              "dTotOpeItem": 4100000
             }
           },
           "gCamIVA": {
             "iAfecIVA": "1",
-            "dDesAfecIVA": "Gravado IVA 10%",
+            "dDesAfecIVA": "Gravado 10%",
             "dPropIVA": 100,
             "dTasaIVA": 10,
-            "dBasGravIVA": 454545.45,
-            "dLiqIVAItem": 45454.55,
+            "dBasGravIVA": 3727273,
+            "dLiqIVAItem": 372727,
             "dBasExe": 0
           },
           "gRasMerc": {
-            "dNumLote": "L001",
-            "dVencMerc": "2026-01-01T00:00:00.000Z"
+            "dNumLote": "HP123123123",
+            "dVencMerc": "2025-12-31T00:00:00Z"
           }
         }
       ]
@@ -132,8 +143,8 @@
       "dSubExe": 0,
       "dSubExo": 0,
       "dSub5": 0,
-      "dSub10": 500000,
-      "dTotOpe": 500000,
+      "dSub10": 4100000,
+      "dTotOpe": 4100000,
       "dTotDesc": 0,
       "dTotDescGlotem": 0,
       "dTotAntItem": 0,
@@ -142,29 +153,15 @@
       "dDescTotal": 0,
       "dAnticipo": 0,
       "dRedon": 0,
-      "dTotGralOpe": 500000,
+      "dTotGralOpe": 4100000,
       "dIVA5": 0,
-      "dIVA10": 45454.55,
+      "dIVA10": 372727,
       "dLiqTotIVA5": 0,
-      "dLiqTotIVA10": 45454.55,
-      "dTotIVA": 45454.55,
+      "dLiqTotIVA10": 372727,
+      "dTotIVA": 372727,
       "dBaseGrav5": 0,
-      "dBaseGrav10": 454545.45,
-      "dTBasGraIVA": 454545.45
-    },
-    "gCamDEAsoc": {
-      "iTipDocAso": 1,
-      "dDesTipDocAso": "Factura Electrónica",
-      "dCdCDERef": "01800123456001002000000120251104165035995"
-    },
-    "gDtipDECond": {
-      "iCondOpe": 2,
-      "dDCondOpe": "Crédito",
-      "gPagCred": {
-        "iCondCred": 1,
-        "dDCondCred": "Plazo de crédito",
-        "dPlazoCre": "30 días"
-      }
+      "dBaseGrav10": 3727273,
+      "dTBasGraIVA": 3727273
     }
   }
 }
