@@ -1,1 +1,169 @@
+{
+  "schemaLocation": "https://ekuatia.set.gov.py/sifen/xsd",
+  "dVerFor": "150",
+  "cantidadItems": 1,
+  "de": {
+    "id": "AE-0001",
+    "dDVId": "1",
+    "dFecFirma": "2025-11-04T16:28:05.614Z",
+    "dSisFact": 1,
+    "gOpeDE": {
+      "iTipEmi": 1,
+      "dDesTipEmi": "Normal",
+      "dCodSeg": "ABC123XYZ"
+    },
+    "gTimb": {
+      "iTiDE": 4,
+      "dDesTiDE": "Autofactura electrónica",
+      "dNumTim": "100200300",
+      "dEst": "001",
+      "dPunExp": "001",
+      "dNumDoc": "0000001",
+      "dFeIniT": "2025-01-01T00:00:00Z"
+    },
+    "gDatGralOpe": {
+      "dFeEmiDE": "2025-11-04T16:28:05.614Z",
+      "gOpeCom": {
+        "iTipTra": 1,
+        "dDesTipTra": "Venta de mercaderías",
+        "iTImp": 1,
+        "dDesTImp": "IVA",
+        "cMoneOpe": "PYG",
+        "dDesMoneOpe": "Guaraníes",
+        "gOblAfe": [
+          {
+            "cOblAfe": "01",
+            "dDesOblAfe": "IVA 10%"
+          }
+        ]
+      },
+      "gEmis": {
+        "dRucEm": "80012345",
+        "dDVEmi": "2",
+        "iTipCont": 1,
+        "dNomEmi": "EMPRESA DEMO S.A.",
+        "dNomFanEmi": "EMPRESA DEMO",
+        "dDirEmi": "Av. Principal 1234",
+        "dNumCas": "0",
+        "cDepEmi": 1,
+        "dDesDepEmi": "CAPITAL",
+        "cDisEmi": 1,
+        "dDesDisEmi": "ASUNCION (DISTRITO)",
+        "cCiuEmi": 1,
+        "dDesCiuEmi": "ASUNCION",
+        "dTelEmi": "021555555",
+        "dEmailE": "contacto@empresademo.com",
+        "dDenSuc": "Casa Central",
+        "gActEco": [
+          {
+            "cActEco": "10101",
+            "dDesActEco": "VENTA DE PRODUCTOS"
+          }
+        ],
+        "gRespDE": {
+          "iTipIDRespDE": 1,
+          "dDTipIDRespDE": "Cédula de identidad paraguaya",
+          "dNumIDRespDE": "1234567",
+          "dNomRespDE": "Marcos Benítez",
+          "dCarRespDE": "Encargado de facturación"
+        }
+      },
+      "gDatRec": {
+        "iNatRec": 1,
+        "iTiOpe": 1,
+        "cPaisRec": "PRY",
+        "dDesPaisRe": "Paraguay",
+        "iTiContRec": 1,
+        "dRucRec": "80099887",
+        "dDVRec": "3",
+        "dNomRec": "CLIENTE DE PRUEBA S.R.L.",
+        "dDirRec": "Ruta 1 Km 10",
+        "dNumCasRec": "0",
+        "cDepRec": 7,
+        "dDesDepRec": "ITAPÚA",
+        "cDisRec": 2,
+        "dDesDisRec": "ENCARNACIÓN",
+        "cCiuRec": 2,
+        "dDesCiuRec": "ENCARNACIÓN",
+        "dCodCliente": "CLI-0001"
+      }
+    },
+    "gDtipDE": {
+      "gCamFE": {
+        "iIndPres": 1,
+        "dDesIndPres": "Operación presencial"
+      },
+      "gCamCond": {
+        "iCondOpe": 1,
+        "dDCondOpe": "Contado",
+        "gPaConEIni": {
+          "iTiPago": 1,
+          "dDesTiPag": "Efectivo",
+          "dMonTiPag": 11000,
+          "cMoneTiPag": "PYG",
+          "dDMoneTiPag": "Guaraníes",
+          "dTiCamTiPag": 1
+        }
+      },
+      "gCamItem": [
+        {
+          "dCodInt": "001",
+          "dDesProSer": "Producto de prueba",
+          "cUniMed": "UNI",
+          "dDesUniMed": "Unidad",
+          "dCantProSer": 1,
+          "gValorItem": {
+            "dPUniProSer": 10000,
+            "dTotBruOpeItem": 10000,
+            "gValorRestaItem": {
+              "dDescItem": 0,
+              "dPorcDesIt": 0,
+              "dDescGloItem": 0,
+              "dAntPreUniIt": 0,
+              "dAntGloPreUniIt": 0,
+              "dTotOpeItem": 10000
+            }
+          },
+          "gCamIVA": {
+            "iAfecIVA": "1",
+            "dDesAfecIVA": "Gravado IVA 10%",
+            "dPropIVA": 100,
+            "dTasaIVA": 10,
+            "dBasGravIVA": 9090.91,
+            "dLiqIVAItem": 909.09,
+            "dBasExe": 0
+          },
+          "gRasMerc": {
+            "dNumLote": "L001",
+            "dVencMerc": "2026-12-31T00:00:00Z"
+          }
+        }
+      ]
+    },
+    "gTotSub": {
+      "dSubExe": 0,
+      "dSubExo": 0,
+      "dSub5": 0,
+      "dSub10": 10000,
+      "dTotOpe": 10000,
+      "dTotDesc": 0,
+      "dTotDescGlotem": 0,
+      "dTotAntItem": 0,
+      "dTotAnt": 0,
+      "dPorcDescTotal": 0,
+      "dDescTotal": 0,
+      "dAnticipo": 0,
+      "dRedon": 0,
+      "dTotGralOpe": 11000,
+      "dIVA5": 0,
+      "dIVA10": 909.09,
+      "dLiqTotIVA5": 0,
+      "dLiqTotIVA10": 909.09,
+      "dTotIVA": 909.09,
+      "dBaseGrav5": 0,
+      "dBaseGrav10": 9090.91,
+      "dTBasGraIVA": 9090.91
+    }
+  }
+}
 
