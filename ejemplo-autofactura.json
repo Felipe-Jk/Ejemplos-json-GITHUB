@@ -1,1 +1,46 @@
+{
+  "page": 1,
+  "pageSize": 20,
+  "total": 23,
+  "data": [
+    {
+      "id": 1,
+      "nroAutofactura": "0000003",
+      "cliente": "SOLALINDE HERMANOS S.A.C.I",
+      "clienteRuc": "80016299",
+      "puntoExpedicion": "001",
+      "establecimiento": "001",
+      "fechaAutofactura": "2025-10-13T14:00:00",
+      "estadoSifen": "CANCELADO",
+      "cdcAuto": "04801460131001001000000312025101312638462072",
+      "totGralOpe": 1000,
+      "moneda": "PYG",
+      "vendedorNombre": "Navila Solalinde",
+      "vendedorTipoDoc": 1,
+      "vendedorNumDoc": "44444",
+      "vendedorDireccion": "Acceso Sur",
+      "vendedorDep": 1,
+      "vendedorDepDesc": "CAPITAL",
+      "vendedorCiu": 1,
+      "vendedorCiuDesc": "ASUNCION (DISTRITO)",
+      "items": [
+        {
+          "id": 20,
+          "codArticulo": "0011",
+          "articulo": "Producto de prueba autofactura",
+          "uniMed": "77",
+          "uniMedDesc": "UNI",
+          "cantidad": 1,
+          "precioUnitario": 1000,
+          "totBruOpeItem": 1000,
+          "precioTotal": 1000,
+          "descItem": 0,
+          "porcDescItem": 0,
+          "descGloItem": 0
+        }
+      ],
+      "json": "{...}" 
+    }
+  ]
+}
 
