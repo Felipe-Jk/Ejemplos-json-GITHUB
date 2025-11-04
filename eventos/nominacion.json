@@ -1,1 +1,12 @@
-
+{
+  "cdc": "01801460131001001000025622025102910000204805",
+  "motivo": "Cliente no asignado",
+  "iNatRec": 1,
+  "iTiOpe": 1,
+  "cPaisRec": "PRY",
+  "dDesPaisRe": "Paraguay",
+  "iTiContRec": 1,
+  "dRucRec": "57825425",
+  "dDVRec": "8",
+  "dNomRec": "Pablo Samaniego"
+}
