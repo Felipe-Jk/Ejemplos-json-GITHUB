@@ -1,46 +1,220 @@
 {
-  "page": 1,
-  "pageSize": 20,
-  "total": 23,
-  "data": [
-    {
-      "id": 1,
-      "nroAutofactura": "0000003",
-      "cliente": "SOLALINDE HERMANOS S.A.C.I",
-      "clienteRuc": "80016299",
-      "puntoExpedicion": "001",
-      "establecimiento": "001",
-      "fechaAutofactura": "2025-10-13T14:00:00",
-      "estadoSifen": "CANCELADO",
-      "cdcAuto": "04801460131001001000000312025101312638462072",
-      "totGralOpe": 1000,
-      "moneda": "PYG",
-      "vendedorNombre": "Navila Solalinde",
-      "vendedorTipoDoc": 1,
-      "vendedorNumDoc": "44444",
-      "vendedorDireccion": "Acceso Sur",
-      "vendedorDep": 1,
-      "vendedorDepDesc": "CAPITAL",
-      "vendedorCiu": 1,
-      "vendedorCiuDesc": "ASUNCION (DISTRITO)",
-      "items": [
-        {
-          "id": 20,
-          "codArticulo": "0011",
-          "articulo": "Producto de prueba autofactura",
-          "uniMed": "77",
-          "uniMedDesc": "UNI",
-          "cantidad": 1,
-          "precioUnitario": 1000,
-          "totBruOpeItem": 1000,
-          "precioTotal": 1000,
-          "descItem": 0,
-          "porcDescItem": 0,
-          "descGloItem": 0
+  "schemaLocation": "https://marangatu.set.gov.py/esquemas/de/v150",
+  "dVerFor": "1.5",
+  "cantidadItems": 2,
+  "de": {
+    "id": "AF-001",
+    "dDVId": "123456789",
+    "dFecFirma": "2025-11-04T16:01:20.727Z",
+    "dSisFact": 1,
+    "gOpeDE": {
+      "iTipEmi": 1,
+      "dDesTipEmi": "Normal",
+      "dCodSeg": "A1B2C3D4E5"
+    },
+    "gTimb": {
+      "iTiDE": 4,
+      "dDesTiDE": "Autofactura Electrónica",
+      "dNumTim": "14598765",
+      "dEst": "001",
+      "dPunExp": "001",
+      "dNumDoc": "0000001",
+      "dFeIniT": "2025-01-01T00:00:00.000Z"
+    },
+    "gDatGralOpe": {
+      "dFeEmiDE": "2025-11-04T15:55:00.000Z",
+      "gOpeCom": {
+        "iTipTra": 1,
+        "dDesTipTra": "Venta de mercadería",
+        "iTImp": 1,
+        "dDesTImp": "IVA",
+        "cMoneOpe": "PYG",
+        "dDesMoneOpe": "Guaraníes",
+        "gOblAfe": [
+          {
+            "cOblAfe": "IVA",
+            "dDesOblAfe": "Impuesto al Valor Agregado"
+          }
+        ]
+      },
+      "gEmis": {
+        "dRucEm": "80012345",
+        "dDVEmi": "2",
+        "iTipCont": 1,
+        "dNomEmi": "EMPRESA DEMO S.A.",
+        "dNomFanEmi": "EMPRESA DEMO",
+        "dDirEmi": "Av. Principal 1234",
+        "dNumCas": "SN",
+        "cDepEmi": 1,
+        "dDesDepEmi": "Central",
+        "cDisEmi": 101,
+        "dDesDisEmi": "Asunción",
+        "cCiuEmi": 10101,
+        "dDesCiuEmi": "Asunción",
+        "dTelEmi": "021555555",
+        "dEmailE": "contacto@empresademo.com",
+        "dDenSuc": "Casa Central",
+        "gActEco": [
+          {
+            "cActEco": "4711",
+            "dDesActEco": "Comercio minorista de alimentos"
+          }
+        ],
+        "gRespDE": {
+          "iTipIDRespDE": 1,
+          "dDTipIDRespDE": "Cédula de Identidad",
+          "dNumIDRespDE": "1234567",
+          "dNomRespDE": "Juan Pérez",
+          "dCarRespDE": "Encargado de facturación"
         }
-      ],
-      "json": "{...}" 
+      },
+      "gDatRec": {
+        "iNatRec": 1,
+        "iTiOpe": 2,
+        "cPaisRec": "PRY",
+        "dDesPaisRe": "Paraguay",
+        "iTiContRec": 1,
+        "dRucRec": "12345601",
+        "dDVRec": "8",
+        "dNomRec": "Cliente de Prueba",
+        "dDirRec": "Ruta 1 Km 12",
+        "dNumCasRec": "SN",
+        "cDepRec": 1,
+        "dDesDepRec": "Central",
+        "cDisRec": 101,
+        "dDesDisRec": "San Lorenzo",
+        "cCiuRec": 10102,
+        "dDesCiuRec": "San Lorenzo",
+        "dCodCliente": "CLI001"
+      }
+    },
+    "gDtipDE": {
+      "gCamAE": {
+        "iNatVen": 1,
+        "dDesNatVen": "Persona física",
+        "iTipIDVen": 1,
+        "dDTipIDVen": "Cédula de Identidad",
+        "dNumIDVen": "9876543",
+        "dNomVen": "Pedro López",
+        "dDirVen": "Calle Falsa 123",
+        "dNumCasVen": 0,
+        "cDepVen": 1,
+        "dDesDepVen": "Central",
+        "cDisVen": 102,
+        "dDesDisVen": "Lambaré",
+        "cCiuVen": 10201,
+        "dDesCiuVen": "Lambaré",
+        "dDirProv": "",
+        "cDepProv": 0,
+        "dDesDepProv": "",
+        "cDisProv": 0,
+        "dDesDisProv": "",
+        "cCiuProv": 0,
+        "dDesCiuProv": ""
+      },
+      "gCamCond": {
+        "iCondOpe": 1,
+        "dDCondOpe": "Contado",
+        "gPaConEIni": {
+          "iTiPago": 1,
+          "dDesTiPag": "Efectivo",
+          "dMonTiPag": 1000000,
+          "cMoneTiPag": "PYG",
+          "dDMoneTiPag": "Guaraníes",
+          "dTiCamTiPag": 1
+        }
+      },
+      "gCamItem": [
+        {
+          "dCodInt": "A001",
+          "dDesProSer": "Aceite vegetal 900ml",
+          "cUniMed": "UNI",
+          "dDesUniMed": "Unidad",
+          "dCantProSer": 10,
+          "gValorItem": {
+            "dPUniProSer": 12000,
+            "dTotBruOpeItem": 120000,
+            "gValorRestaItem": {
+              "dDescItem": 0,
+              "dPorcDesIt": 0,
+              "dDescGloItem": 0,
+              "dAntPreUniIt": 0,
+              "dAntGloPreUniIt": 0,
+              "dTotOpeItem": 120000
+            }
+          },
+          "gCamIVA": {
+            "iAfecIVA": "1",
+            "dDesAfecIVA": "Gravado IVA 10%",
+            "dPropIVA": 100,
+            "dTasaIVA": 10,
+            "dBasGravIVA": 109091,
+            "dLiqIVAItem": 10909,
+            "dBasExe": 0
+          }
+        },
+        {
+          "dCodInt": "B002",
+          "dDesProSer": "Harina de trigo 1kg",
+          "cUniMed": "UNI",
+          "dDesUniMed": "Unidad",
+          "dCantProSer": 5,
+          "gValorItem": {
+            "dPUniProSer": 10000,
+            "dTotBruOpeItem": 50000,
+            "gValorRestaItem": {
+              "dDescItem": 0,
+              "dPorcDesIt": 0,
+              "dDescGloItem": 0,
+              "dAntPreUniIt": 0,
+              "dAntGloPreUniIt": 0,
+              "dTotOpeItem": 50000
+            }
+          },
+          "gCamIVA": {
+            "iAfecIVA": "1",
+            "dDesAfecIVA": "Gravado IVA 10%",
+            "dPropIVA": 100,
+            "dTasaIVA": 10,
+            "dBasGravIVA": 45455,
+            "dLiqIVAItem": 4545,
+            "dBasExe": 0
+          }
+        }
+      ]
+    },
+    "gTotSub": {
+      "dSubExe": 0,
+      "dSubExo": 0,
+      "dSub5": 0,
+      "dSub10": 170000,
+      "dTotOpe": 170000,
+      "dTotDesc": 0,
+      "dTotDescGlotem": 0,
+      "dTotAntItem": 0,
+      "dTotAnt": 0,
+      "dPorcDescTotal": 0,
+      "dDescTotal": 0,
+      "dAnticipo": 0,
+      "dRedon": 0,
+      "dTotGralOpe": 170000,
+      "dIVA5": 0,
+      "dIVA10": 15454,
+      "dLiqTotIVA5": 0,
+      "dLiqTotIVA10": 15454,
+      "dTotIVA": 15454,
+      "dBaseGrav5": 0,
+      "dBaseGrav10": 154546,
+      "dTBasGraIVA": 10
+    },
+    "gCamDEAsoc": {
+      "iTipDocAso": 1,
+      "dDesTipDocAso": "Factura Electrónica",
+      "iTipCons": 1,
+      "dDesTipCons": "Operación relacionada",
+      "dNumCons": "001-001-0000001",
+      "dNumControl": "12345678901234567890"
     }
-  ]
+  }
 }
 
