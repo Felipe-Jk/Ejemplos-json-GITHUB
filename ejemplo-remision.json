@@ -1,1 +1,264 @@
+{
+  "cantidadItems": 2,
+  "de": {
+    "id": "NR-20251104-001",
+    "dDVId": "8",
+    "dFecFirma": "2025-11-04T17:30:00.000Z",
+    "dSisFact": 1,
+    "gOpeDE": {
+      "iTipEmi": 1,
+      "dDesTipEmi": "Emisión electrónica",
+      "dCodSeg": "ABC123XYZ"
+    },
+    "gTimb": {
+      "iTiDE": 1,
+      "dDesTiDE": "Documento electrónico",
+      "dNumTim": "100200300400",
+      "dEst": "Activo",
+      "dPunExp": "001",
+      "dNumDoc": "000001",
+      "dFeIniT": "2025-11-04T17:30:00.000Z"
+    },
+    "gDatGralOpe": {
+      "dFeEmiDE": "2025-11-04T17:30:00.000Z",
+      "gOpeCom": {
+        "iTipTra": 1,
+        "dDesTipTra": "Venta de mercaderías",
+        "iTImp": 5,
+        "dDesTImp": "IVA - Renta",
+        "cMoneOpe": "PYG",
+        "dDesMoneOpe": "Guaraní",
+        "gOblAfe": [
+          {
+            "cOblAfe": "IVA10",
+            "dDesOblAfe": "IVA 10% aplicado"
+          }
+        ]
+      },
+      "gEmis": {
+        "dRucEm": "80012345",
+        "dDVEmi": "1",
+        "iTipCont": 1,
+        "dNomEmi": "EMPRESA DE PRUEBA S.A.",
+        "dNomFanEmi": "EMPRESA PRUEBA",
+        "dDirEmi": "AV. PRUEBA 123",
+        "dNumCas": "123",
+        "cDepEmi": 1,
+        "dDesDepEmi": "Asunción",
+        "cDisEmi": 10,
+        "dDesDisEmi": "Villa Morra",
+        "cCiuEmi": 1,
+        "dDesCiuEmi": "Asunción",
+        "dTelEmi": "021123456",
+        "dEmailE": "contacto@empresa.com.py",
+        "dDenSuc": "Sucursal Central",
+        "gActEco": [
+          {
+            "cActEco": "4711",
+            "dDesActEco": "Comercio al por menor"
+          }
+        ],
+        "gRespDE": {
+          "iTipIDRespDE": 1,
+          "dDTipIDRespDE": "CI",
+          "dNumIDRespDE": "1234567",
+          "dNomRespDE": "JUAN PEREZ",
+          "dCarRespDE": "Gerente"
+        }
+      },
+      "gDatRec": {
+        "iNatRec": 1,
+        "iTiOpe": 1,
+        "cPaisRec": "PY",
+        "dDesPaisRe": "Paraguay",
+        "iTiContRec": 1,
+        "dRucRec": "80076543",
+        "dDVRec": "8",
+        "dNomRec": "CLIENTE DE PRUEBA S.A.",
+        "dDirRec": "AV. CLIENTE 456",
+        "dNumCasRec": "456",
+        "cDepRec": 1,
+        "dDesDepRec": "Asunción",
+        "cDisRec": 5,
+        "dDesDisRec": "Recoleta",
+        "cCiuRec": 1,
+        "dDesCiuRec": "Asunción",
+        "dCodCliente": "CUST-001"
+      }
+    },
+    "gDtipDE": {
+      "gCamCond": {
+        "iCondOpe": 2,
+        "dDCondOpe": "Crédito",
+        "gPagCred": {
+          "iCondCred": 1,
+          "dDCondCred": "Plazo",
+          "dPlazoCre": "30 días"
+        },
+        "gPaConEIni": {
+          "iTiPago": 1,
+          "dDesTiPag": "Efectivo",
+          "dMonTiPag": 100000,
+          "cMoneTiPag": "PYG",
+          "dDMoneTiPag": "Guaraní",
+          "dTiCamTiPag": 1,
+          "gPagTarCD": [],
+          "gPagCheq": []
+        }
+      },
+      "gCamNRE": {
+        "iMotEmiNR": 1,
+        "dDesMotEmiNR": "Entrega de mercaderías",
+        "iRespEmiNR": 1,
+        "dDesRespEmiNR": "Responsable entrega",
+        "dKmR": 15,
+        "dFecEm": "2025-11-04T17:30:00.000Z"
+      },
+      "gCamItem": [
+        {
+          "dCodInt": "PROD-001",
+          "dDesProSer": "Producto de prueba 1",
+          "cUniMed": "UNI",
+          "dDesUniMed": "Unidad",
+          "dCantProSer": 2,
+          "gValorItem": {
+            "dPUniProSer": 50000,
+            "dTotBruOpeItem": 100000,
+            "gValorRestaItem": {
+              "dDescItem": 0,
+              "dPorcDesIt": 0,
+              "dDescGloItem": 0,
+              "dAntPreUniIt": 0,
+              "dAntGloPreUniIt": 0,
+              "dTotOpeItem": 100000
+            }
+          },
+          "gCamIVA": {
+            "iAfecIVA": "10%",
+            "dDesAfecIVA": "IVA 10%",
+            "dPropIVA": 10,
+            "dTasaIVA": 10,
+            "dBasGravIVA": 90909,
+            "dLiqIVAItem": 9091,
+            "dBasExe": 0
+          },
+          "gRasMerc": {
+            "dNumLote": "LOT-001",
+            "dVencMerc": "2026-01-01T00:00:00.000Z"
+          }
+        },
+        {
+          "dCodInt": "PROD-002",
+          "dDesProSer": "Producto de prueba 2",
+          "cUniMed": "UNI",
+          "dDesUniMed": "Unidad",
+          "dCantProSer": 1,
+          "gValorItem": {
+            "dPUniProSer": 75000,
+            "dTotBruOpeItem": 75000,
+            "gValorRestaItem": {
+              "dDescItem": 0,
+              "dPorcDesIt": 0,
+              "dDescGloItem": 0,
+              "dAntPreUniIt": 0,
+              "dAntGloPreUniIt": 0,
+              "dTotOpeItem": 75000
+            }
+          },
+          "gCamIVA": {
+            "iAfecIVA": "10%",
+            "dDesAfecIVA": "IVA 10%",
+            "dPropIVA": 10,
+            "dTasaIVA": 10,
+            "dBasGravIVA": 68182,
+            "dLiqIVAItem": 6818,
+            "dBasExe": 0
+          },
+          "gRasMerc": {
+            "dNumLote": "LOT-002",
+            "dVencMerc": "2026-02-01T00:00:00.000Z"
+          }
+        }
+      ],
+      "gTransp": {
+        "iTipTrans": 1,
+        "dDesTipTrans": "Transporte propio",
+        "iModTrans": 1,
+        "dDesModTrans": "Camión",
+        "iRespFlete": 1,
+        "dIniTras": "2025-11-04T18:00:00.000Z",
+        "dFinTras": "2025-11-04T20:00:00.000Z",
+        "gCamSal": {
+          "dDirLocSal": "AV. PRUEBA 123",
+          "dNumCasSal": "123",
+          "cDepSal": 1,
+          "dDesDepSal": "Asunción",
+          "cDisSal": 10,
+          "dDesDisSal": "Villa Morra",
+          "cCiuSal": 1,
+          "dDesCiuSal": "Asunción",
+          "dTelSal": "021123456"
+        },
+        "gCamEnt": {
+          "dDirLocEnt": "AV. CLIENTE 456",
+          "dNumCasEnt": "456",
+          "cDepEnt": 1,
+          "dDesDepEnt": "Asunción",
+          "cDisEnt": 5,
+          "dDesDisEnt": "Recoleta",
+          "cCiuEnt": 1,
+          "dDesCiuEnt": "Asunción",
+          "dTelEnt": "021654321"
+        },
+        "gVehTras": {
+          "dTiVehTras": "Camión",
+          "dMarVeh": "Mercedes",
+          "dTipIdenVeh": 1,
+          "dNroMatVeh": "ABC-123"
+        },
+        "gCamTrans": {
+          "iNatTrans": 1,
+          "dNomTrans": "Transportes de Prueba S.A.",
+          "iTipIDTrans": 1,
+          "dDTipIDTrans": "RUC",
+          "dNumIDTrans": "80055555-1",
+          "dNumIDChof": "1234567",
+          "dNomChof": "CARLOS RAMIREZ",
+          "dDomFisc": "AV. TRANSPORTE 789",
+          "dDirChof": "AV. TRANSPORTE 789"
+        }
+      }
+    },
+    "gTotSub": {
+      "dSubExe": 0,
+      "dSubExo": 0,
+      "dSub5": 0,
+      "dSub10": 175000,
+      "dTotOpe": 175000,
+      "dTotDesc": 0,
+      "dTotDescGlotem": 0,
+      "dTotAntItem": 0,
+      "dTotAnt": 0,
+      "dPorcDescTotal": 0,
+      "dDescTotal": 0,
+      "dAnticipo": 0,
+      "dRedon": 0,
+      "dTotGralOpe": 175000,
+      "dIVA5": 0,
+      "dIVA10": 15909,
+      "dLiqTotIVA5": 0,
+      "dLiqTotIVA10": 15909,
+      "dTotIVA": 15909,
+      "dBaseGrav5": 0,
+      "dBaseGrav10": 159091,
+      "dTBasGraIVA": 159091
+    },
+    "gCamDEAsoc": {
+      "iTipDocAso": 0,
+      "dDesTipDocAso": "",
+      "dCdCDERef": ""
+    }
+  },
+  "dVerFor": "1.0"
+}
 
