@@ -1,1 +1,9 @@
-
+{
+  "numeroTimbrado": "80146013",
+  "establecimiento": "001",
+  "puntoExpedicion": "001",
+  "numeroInicio": "0000014",
+  "numeroFin": "0000014",
+  "tipoDocumento": 1,
+  "motivo": "Saltos de numeración"
+}
