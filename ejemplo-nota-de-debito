@@ -1,0 +1,193 @@
+{
+  "schemaLocation": "https://www.sifen.gov.py/schema/notaDebito/v1/NotaDebitoElectronica.xsd",
+  "dVerFor": "1.0",
+  "cantidadItems": 2,
+  "de": {
+    "id": "ND-0001",
+    "dDVId": "9",
+    "dFecFirma": "2025-11-04T17:43:32.456Z",
+    "dSisFact": 1,
+    "gOpeDE": {
+      "iTipEmi": 1,
+      "dDesTipEmi": "Emisión normal",
+      "dCodSeg": "ABC123"
+    },
+    "gTimb": {
+      "iTiDE": 1,
+      "dDesTiDE": "Timbrado único",
+      "dNumTim": "17951039",
+      "dEst": "Activo",
+      "dPunExp": "001",
+      "dNumDoc": "0000601",
+      "dFeIniT": "2025-11-04T17:43:32.456Z"
+    },
+    "gDatGralOpe": {
+      "dFeEmiDE": "2025-11-04T17:43:32.456Z",
+      "gOpeCom": {
+        "iTipTra": 1,
+        "dDesTipTra": "Venta de mercadería",
+        "iTImp": 10,
+        "dDesTImp": "IVA 10%",
+        "cMoneOpe": "PYG",
+        "dDesMoneOpe": "Guaraníes",
+        "gOblAfe": [
+          {
+            "cOblAfe": "IVA10",
+            "dDesOblAfe": "IVA sobre ventas"
+          }
+        ]
+      },
+      "gEmis": {
+        "dRucEm": "80012345",
+        "dDVEmi": "1",
+        "iTipCont": 1,
+        "dNomEmi": "Empresa de Prueba S.A.",
+        "dNomFanEmi": "Prueba S.A.",
+        "dDirEmi": "Av. Siempre Viva 123",
+        "dNumCas": "123",
+        "cDepEmi": 1,
+        "dDesDepEmi": "Central",
+        "cDisEmi": 1,
+        "dDesDisEmi": "Asunción",
+        "cCiuEmi": 1,
+        "dDesCiuEmi": "Asunción",
+        "dTelEmi": "021123456",
+        "dEmailE": "contacto@prueba.com",
+        "dDenSuc": "Sucursal Principal",
+        "gActEco": [
+          {
+            "cActEco": "4711",
+            "dDesActEco": "Comercio minorista"
+          }
+        ],
+        "gRespDE": {
+          "iTipIDRespDE": 1,
+          "dDTipIDRespDE": "CI",
+          "dNumIDRespDE": "1234567",
+          "dNomRespDE": "Juan Pérez",
+          "dCarRespDE": "Gerente"
+        }
+      },
+      "gDatRec": {
+        "iNatRec": 1,
+        "iTiOpe": 1,
+        "cPaisRec": "PY",
+        "dDesPaisRe": "Paraguay",
+        "iTiContRec": 1,
+        "dRucRec": "80076543",
+        "dDVRec": "2",
+        "dNomRec": "Cliente de Prueba S.A.",
+        "dDirRec": "Calle Falsa 456",
+        "dNumCasRec": "456",
+        "cDepRec": 1,
+        "dDesDepRec": "Central",
+        "cDisRec": 1,
+        "dDesDisRec": "Asunción",
+        "cCiuRec": 1,
+        "dDesCiuRec": "Asunción",
+        "dCodCliente": "C-001"
+      }
+    },
+    "gDtipDE": {
+      "gCamNCDE": {
+        "iMotEmi": 1,
+        "dDesMotEmi": "Ajuste por intereses de factura"
+      },
+      "gCamItem": [
+        {
+          "dCodInt": "P001",
+          "dDesProSer": "Servicio de mantenimiento",
+          "cUniMed": "UN",
+          "dDesUniMed": "Unidad",
+          "dCantProSer": 1,
+          "gValorItem": {
+            "dPUniProSer": 500000,
+            "dTotBruOpeItem": 500000,
+            "gValorRestaItem": {
+              "dDescItem": 0,
+              "dPorcDesIt": 0,
+              "dDescGloItem": 0,
+              "dAntPreUniIt": 0,
+              "dAntGloPreUniIt": 0,
+              "dTotOpeItem": 500000
+            }
+          },
+          "gCamIVA": {
+            "iAfecIVA": "10",
+            "dDesAfecIVA": "IVA 10%",
+            "dPropIVA": 100,
+            "dTasaIVA": 10,
+            "dBasGravIVA": 454545.45,
+            "dLiqIVAItem": 45454.55,
+            "dBasExe": 0
+          },
+          "gRasMerc": {
+            "dNumLote": "L001",
+            "dVencMerc": "2026-11-04T17:43:32.456Z"
+          }
+        },
+        {
+          "dCodInt": "P002",
+          "dDesProSer": "Reemplazo de repuestos",
+          "cUniMed": "UN",
+          "dDesUniMed": "Unidad",
+          "dCantProSer": 2,
+          "gValorItem": {
+            "dPUniProSer": 200000,
+            "dTotBruOpeItem": 400000,
+            "gValorRestaItem": {
+              "dDescItem": 0,
+              "dPorcDesIt": 0,
+              "dDescGloItem": 0,
+              "dAntPreUniIt": 0,
+              "dAntGloPreUniIt": 0,
+              "dTotOpeItem": 400000
+            }
+          },
+          "gCamIVA": {
+            "iAfecIVA": "10",
+            "dDesAfecIVA": "IVA 10%",
+            "dPropIVA": 100,
+            "dTasaIVA": 10,
+            "dBasGravIVA": 363636.36,
+            "dLiqIVAItem": 36363.64,
+            "dBasExe": 0
+          },
+          "gRasMerc": {
+            "dNumLote": "L002",
+            "dVencMerc": "2026-11-04T17:43:32.456Z"
+          }
+        }
+      ]
+    },
+    "gTotSub": {
+      "dSubExe": 0,
+      "dSubExo": 0,
+      "dSub5": 0,
+      "dSub10": 818181.81,
+      "dTotOpe": 900000,
+      "dTotDesc": 0,
+      "dTotDescGlotem": 0,
+      "dTotAntItem": 0,
+      "dTotAnt": 0,
+      "dPorcDescTotal": 0,
+      "dDescTotal": 0,
+      "dAnticipo": 0,
+      "dRedon": 0,
+      "dTotGralOpe": 900000,
+      "dIVA5": 0,
+      "dIVA10": 81818.19,
+      "dLiqTotIVA5": 0,
+      "dLiqTotIVA10": 81818.19,
+      "dTotIVA": 81818.19,
+      "dBaseGrav5": 0,
+      "dBaseGrav10": 818181.81,
+      "dTBasGraIVA": 818181.81
+    },
+    "gCamDEAsoc": {
+      "iTipDocAso": 1,
+      "dDesTipDocAso": "Factura asociada",
+      "dCdCDERef": "01801460131002001000101812025100112179568428"
+    }
+  }
+}
